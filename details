@@ -1,0 +1,408 @@
+import React from "react"
+import { StyleSheet, Image, Text, View, ImageBackground } from "react-native"
+
+export default function Details() {
+  return (
+    <View style={styles.Details}>
+      <View style={styles.Group443}>
+        <Image
+          style={styles.IosStatusBarBlack}
+          source={{
+            uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/up3fjyrnfw-238%3A3016?alt=media&token=e0851f2c-fc83-483d-8a7b-c83a7b4d3392",
+          }}
+        />
+        <View style={styles.Group3810}>
+          <View style={styles.Group149}>
+            <Text style={styles.Back}>Back</Text>
+            <Image
+              style={styles.BurgerMenu_svgrepoCom}
+              source={{
+                uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/up3fjyrnfw-239%3A2365?alt=media&token=d30ceedc-7f3c-4554-bf5d-075cbdee6f22",
+              }}
+            />
+          </View>
+          <View style={styles.ImageBlock} />
+          <View style={styles.PostTitleText}>
+            <Text style={styles.DishName}>Dish Name</Text>
+            <Text style={styles.DishInformation}>Dish information</Text>
+          </View>
+          <View style={styles.Group905}>
+            <Text style={styles.DrinkPairings}>Drink Pairings</Text>
+            <Text style={styles.Filter}>Filter</Text>
+          </View>
+          <View style={styles.ContentBlocks}>
+            <View style={styles.ContentContentBlockSmall}>
+              <View style={styles.Group868}>
+                <View style={styles.ContentBlock} />
+                <View style={styles.Group761}>
+                  <Text style={styles.Header}>Drink</Text>
+                  <Text style={styles.HeLlWantToUseYourYac}>Information</Text>
+                </View>
+              </View>
+              <View style={styles.DividerLine} />
+            </View>
+            <View style={styles.ContentContentBlockSmall1}>
+              <View style={styles.Group181}>
+                <View style={styles.ContentBlock} />
+                <View style={styles.Group585}>
+                  <Text style={styles.Header1}>Drink</Text>
+                  <Text style={styles.HeLlWantToUseYourYac1}>Information</Text>
+                </View>
+              </View>
+              <View style={styles.DividerLine} />
+            </View>
+            <View style={styles.ContentContentBlockSmall2}>
+              <View style={styles.Group621}>
+                <View style={styles.ContentBlock} />
+                <View style={styles.Group726}>
+                  <Text style={styles.Header2}>Drink</Text>
+                  <Text style={styles.HeLlWantToUseYourYac2}>Information</Text>
+                </View>
+              </View>
+              <View style={styles.DividerLine} />
+            </View>
+            <View style={styles.ContentContentBlockSmall3}>
+              <View style={styles.Group002}>
+                <View style={styles.ContentBlock} />
+                <View style={styles.Group131}>
+                  <Text style={styles.Header3}>Drink</Text>
+                  <Text style={styles.HeLlWantToUseYourYac3}>Information</Text>
+                </View>
+              </View>
+              <View style={styles.DividerLine} />
+            </View>
+          </View>
+        </View>
+      </View>
+      <Text style={styles.AddToFavorites}>Add to Favorites</Text>
+    </View>
+  )
+}
+
+const styles = StyleSheet.create({
+  Details: {
+    position: "relative",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: 375,
+    height: 812,
+    boxSizing: "border-box",
+    backgroundColor: "rgba(255,255,255,1)",
+  },
+  Group443: {
+    position: "absolute",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    width: "100%",
+    height: "100%",
+    boxSizing: "border-box",
+  },
+  IosStatusBarBlack: {
+    width: "100%",
+    height: 44,
+  },
+  Group3810: {
+    display: "flex",
+    flexDirection: "column",
+    width: "100%",
+    boxSizing: "border-box",
+  },
+  Group149: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    width: "100%",
+    boxSizing: "border-box",
+  },
+  Back: {
+    color: "rgba(254,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "500",
+  },
+  BurgerMenu_svgrepoCom: {
+    width: 38,
+    height: "100%",
+  },
+  ImageBlock: {
+    width: "100%",
+    height: 196,
+    borderRadius: 8,
+    backgroundColor: "rgba(246,246,246,1)",
+  },
+  PostTitleText: {
+    display: "flex",
+    flexDirection: "column",
+    width: "100%",
+    paddingRight: 218,
+    paddingBottom: 3,
+    boxSizing: "border-box",
+  },
+  DishName: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "24px",
+    lineHeight: "24px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "500",
+  },
+  DishInformation: {
+    color: "rgba(102,102,102,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "500",
+  },
+  Group905: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "flex-end",
+    width: "100%",
+    boxSizing: "border-box",
+  },
+  DrinkPairings: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "20px",
+    lineHeight: "20px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "500",
+  },
+  Filter: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-end",
+    color: "rgba(254,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "500",
+    textAlign: "right",
+  },
+  ContentBlocks: {
+    display: "flex",
+    flexDirection: "column",
+    width: "100%",
+    boxSizing: "border-box",
+  },
+  ContentContentBlockSmall: {
+    position: "relative",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: "100%",
+    boxSizing: "border-box",
+  },
+  Group868: {
+    position: "absolute",
+    display: "flex",
+    flexDirection: "row",
+    width: 140.89,
+    height: 50,
+    boxSizing: "border-box",
+  },
+  ContentBlock: {
+    width: 50,
+    height: "100%",
+    borderRadius: 8,
+    backgroundColor: "rgba(246,246,246,1)",
+  },
+  Group761: {
+    display: "flex",
+    flexDirection: "column",
+    height: "100%",
+    boxSizing: "border-box",
+  },
+  Header: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "600",
+  },
+  HeLlWantToUseYourYac: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "14px",
+    lineHeight: "14px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "400",
+  },
+  DividerLine: {
+    position: "absolute",
+    left: 66,
+    width: 277,
+    height: 1,
+    borderWidth: 1,
+    borderColor: "rgba(232,232,232,1)",
+  },
+  ContentContentBlockSmall1: {
+    position: "relative",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: "100%",
+    boxSizing: "border-box",
+  },
+  Group181: {
+    position: "absolute",
+    display: "flex",
+    flexDirection: "row",
+    width: 140.89,
+    height: 50,
+    boxSizing: "border-box",
+  },
+  ContentBlock2: {
+    width: 50,
+    height: "100%",
+    borderRadius: 8,
+    backgroundColor: "rgba(246,246,246,1)",
+  },
+  Group585: {
+    display: "flex",
+    flexDirection: "column",
+    height: "100%",
+    boxSizing: "border-box",
+  },
+  Header1: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "600",
+  },
+  HeLlWantToUseYourYac1: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "14px",
+    lineHeight: "14px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "400",
+  },
+  DividerLine1: {
+    position: "absolute",
+    left: 66,
+    width: 277,
+    height: 1,
+    borderWidth: 1,
+    borderColor: "rgba(232,232,232,1)",
+  },
+  ContentContentBlockSmall2: {
+    position: "relative",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: "100%",
+    boxSizing: "border-box",
+  },
+  Group621: {
+    position: "absolute",
+    display: "flex",
+    flexDirection: "row",
+    width: 140.89,
+    height: 50,
+    boxSizing: "border-box",
+  },
+  ContentBlock4: {
+    width: 50,
+    height: "100%",
+    borderRadius: 8,
+    backgroundColor: "rgba(246,246,246,1)",
+  },
+  Group726: {
+    display: "flex",
+    flexDirection: "column",
+    height: "100%",
+    boxSizing: "border-box",
+  },
+  Header2: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "600",
+  },
+  HeLlWantToUseYourYac2: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "14px",
+    lineHeight: "14px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "400",
+  },
+  DividerLine2: {
+    position: "absolute",
+    left: 66,
+    width: 277,
+    height: 1,
+    borderWidth: 1,
+    borderColor: "rgba(232,232,232,1)",
+  },
+  ContentContentBlockSmall3: {
+    position: "relative",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: "100%",
+    boxSizing: "border-box",
+  },
+  Group002: {
+    position: "absolute",
+    display: "flex",
+    flexDirection: "row",
+    width: 140.89,
+    height: 50,
+    boxSizing: "border-box",
+  },
+  ContentBlock6: {
+    width: 50,
+    height: "100%",
+    borderRadius: 8,
+    backgroundColor: "rgba(246,246,246,1)",
+  },
+  Group131: {
+    display: "flex",
+    flexDirection: "column",
+    height: "100%",
+    boxSizing: "border-box",
+  },
+  Header3: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "600",
+  },
+  HeLlWantToUseYourYac3: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "14px",
+    lineHeight: "14px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "400",
+  },
+  DividerLine3: {
+    position: "absolute",
+    left: 66,
+    width: 277,
+    height: 1,
+    borderWidth: 1,
+    borderColor: "rgba(232,232,232,1)",
+  },
+  AddToFavorites: {
+    position: "absolute",
+    top: 350,
+    right: 17,
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-end",
+    color: "rgba(254,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "500",
+    textAlign: "right",
+  },
+})
