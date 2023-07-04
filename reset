@@ -1,0 +1,135 @@
+import React from "react"
+import { StyleSheet, Image, Text, View, ImageBackground } from "react-native"
+
+export default function Reset() {
+  return (
+    <View style={styles.Reset}>
+      <View style={styles.Group6106}>
+        <Image
+          style={styles.IosStatusBarBlack}
+          source={{
+            uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/22i5l92rpli-226%3A2821?alt=media&token=bd6b3fc3-7b67-4b4d-8223-1dcf42414575",
+          }}
+        />
+        <View style={styles.PageHeader}>
+          <Text style={styles.LogIn}>Forgot your password?</Text>
+        </View>
+        <View style={styles.InputText}>
+          <Text style={styles.Email}>Email</Text>
+        </View>
+        <View style={styles.ButtonPrimary}>
+          <Text style={styles.LogIn1}>Send instructions</Text>
+        </View>
+      </View>
+      <Text style={styles.Back}>Back</Text>
+    </View>
+  )
+}
+
+const styles = StyleSheet.create({
+  Reset: {
+    position: "relative",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: 375,
+    height: 812,
+    boxSizing: "border-box",
+    backgroundColor: "rgba(255,255,255,1)",
+  },
+  Group6106: {
+    position: "absolute",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    width: "100%",
+    height: 253,
+    boxSizing: "border-box",
+  },
+  IosStatusBarBlack: {
+    width: "100%",
+    height: 44,
+  },
+  PageHeader: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: "100%",
+    paddingLeft: 72,
+    paddingRight: 69,
+    paddingTop: 8,
+    paddingBottom: 8,
+    boxSizing: "border-box",
+  },
+  LogIn: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    color: "rgba(0,0,0,1)",
+    fontSize: "20px",
+    lineHeight: "20px",
+    fontFamily: "Urbanist, sans-serif",
+    fontWeight: "600",
+    textAlign: "center",
+  },
+  InputText: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: "100%",
+    paddingLeft: 14,
+    paddingRight: 285,
+    paddingTop: 14,
+    paddingBottom: 16,
+    borderWidth: 1,
+    borderColor: "rgba(232,232,232,1)",
+    borderRadius: 8,
+    boxSizing: "border-box",
+    backgroundColor: "undefined",
+  },
+  Email: {
+    color: "rgba(189,189,189,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "500",
+  },
+  ButtonPrimary: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "center",
+    width: "100%",
+    paddingLeft: 32,
+    paddingRight: 32,
+    paddingTop: 16,
+    paddingBottom: 16,
+    borderRadius: 100,
+    boxSizing: "border-box",
+    backgroundColor: "rgba(254,0,0,1)",
+  },
+  LogIn1: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    color: "rgba(255,255,255,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "600",
+    textAlign: "center",
+  },
+  Back: {
+    position: "absolute",
+    top: 68,
+    left: 17,
+    color: "rgba(254,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "500",
+  },
+})
