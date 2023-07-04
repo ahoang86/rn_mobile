@@ -1,0 +1,221 @@
+import React from "react"
+import { StyleSheet, Image, Text, View, ImageBackground } from "react-native"
+
+export default function Rr() {
+  return (
+    <View style={styles.Rr}>
+      <View style={styles.Group2105}>
+        <Image
+          style={styles.IosStatusBarBlack}
+          source={{
+            uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/hrr1pe8inb6-358%3A2872?alt=media&token=55c792ed-6c1c-461b-974c-5f674af66555",
+          }}
+        />
+        <View style={styles.PageHeader}>
+          <Text style={styles.Back}>Back</Text>
+          <Text style={styles.Feed}>Rate and Review</Text>
+          <Text style={styles.Filter}>Log out</Text>
+        </View>
+        <View style={styles.ContentBlocks}>
+          <View style={styles.ContentContentBlockSmall}>
+            <View style={styles.Group285}>
+              <View style={styles.ContentBlock} />
+              <View style={styles.Group1101}>
+                <Text style={styles.Header}>My ratings and reviews</Text>
+                <Text style={styles.HeLlWantToUseYourYac}>
+                  Based on your experience
+                </Text>
+              </View>
+            </View>
+            <View style={styles.DividerLine} />
+          </View>
+          <View style={styles.ContentContentBlockSmall1}>
+            <View style={styles.Group859}>
+              <View style={styles.ContentBlock} />
+              <View style={styles.Group076}>
+                <Text style={styles.Header2}>Search for pairings</Text>
+                <Text style={styles.HeLlWantToUseYourYac1}>
+                  See what others are saying
+                </Text>
+              </View>
+            </View>
+            <View style={styles.DividerLine} />
+          </View>
+        </View>
+      </View>
+    </View>
+  )
+}
+
+const styles = StyleSheet.create({
+  Rr: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: 375,
+    height: 812,
+    paddingBottom: 514,
+    boxSizing: "border-box",
+    backgroundColor: "rgba(255,255,255,1)",
+  },
+  Group2105: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    width: "100%",
+    height: "100%",
+    boxSizing: "border-box",
+  },
+  IosStatusBarBlack: {
+    width: "100%",
+    height: 44,
+  },
+  PageHeader: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: "100%",
+    paddingTop: 7,
+    paddingBottom: 5,
+    boxSizing: "border-box",
+  },
+  Back: {
+    color: "rgba(254,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "500",
+  },
+  Feed: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    color: "rgba(0,0,0,1)",
+    fontSize: "24px",
+    lineHeight: "24px",
+    fontFamily: "Urbanist, sans-serif",
+    fontWeight: "600",
+    textAlign: "center",
+  },
+  Filter: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-end",
+    color: "rgba(254,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "500",
+    textAlign: "right",
+  },
+  ContentBlocks: {
+    display: "flex",
+    flexDirection: "column",
+    width: "100%",
+    boxSizing: "border-box",
+  },
+  ContentContentBlockSmall: {
+    position: "relative",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: "100%",
+    boxSizing: "border-box",
+  },
+  Group285: {
+    position: "absolute",
+    display: "flex",
+    flexDirection: "row",
+    width: 245.23,
+    height: 50,
+    boxSizing: "border-box",
+  },
+  ContentBlock: {
+    width: 50,
+    height: "100%",
+    borderRadius: 8,
+    backgroundColor: "rgba(246,246,246,1)",
+  },
+  Group1101: {
+    display: "flex",
+    flexDirection: "column",
+    height: "100%",
+    boxSizing: "border-box",
+  },
+  Header: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "600",
+  },
+  HeLlWantToUseYourYac: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "14px",
+    lineHeight: "14px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "400",
+  },
+  DividerLine: {
+    position: "absolute",
+    left: 66,
+    width: 277,
+    height: 1,
+    borderWidth: 1,
+    borderColor: "rgba(232,232,232,1)",
+  },
+  ContentContentBlockSmall1: {
+    position: "relative",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: "100%",
+    boxSizing: "border-box",
+  },
+  Group859: {
+    position: "absolute",
+    display: "flex",
+    flexDirection: "row",
+    width: 246.05,
+    height: 50,
+    boxSizing: "border-box",
+  },
+  ContentBlock2: {
+    width: 50,
+    height: "100%",
+    borderRadius: 8,
+    backgroundColor: "rgba(246,246,246,1)",
+  },
+  Group076: {
+    display: "flex",
+    flexDirection: "column",
+    height: "100%",
+    boxSizing: "border-box",
+  },
+  Header2: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "600",
+  },
+  HeLlWantToUseYourYac1: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "14px",
+    lineHeight: "14px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "400",
+  },
+  DividerLine1: {
+    position: "absolute",
+    left: 66,
+    width: 277,
+    height: 1,
+    borderWidth: 1,
+    borderColor: "rgba(232,232,232,1)",
+  },
+})
