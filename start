@@ -1,0 +1,217 @@
+import React from "react"
+import { StyleSheet, Image, Text, View, ImageBackground } from "react-native"
+
+export default function Start() {
+  return (
+    <View style={styles.Start}>
+      <View style={styles.Group668}>
+        <Image
+          style={styles.IosStatusBarBlack}
+          source={{
+            uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/te66dl63erh-227%3A2814?alt=media&token=30257f3f-c592-4898-bea6-68e6e91f914f",
+          }}
+        />
+        <View style={styles.PageHeader}>
+          <Text style={styles.LogIn}>DrinkDish</Text>
+          <Text style={styles.Login}>Sign up</Text>
+        </View>
+        <View style={styles.InputText}>
+          <Text style={styles.Email}>Email</Text>
+        </View>
+        <View style={styles.InputText1}>
+          <Text style={styles.Password}>Password</Text>
+          <Text style={styles.Show}>Show</Text>
+        </View>
+        <View style={styles.ButtonPrimary}>
+          <Text style={styles.LogIn1}>Log In</Text>
+        </View>
+        <Text style={styles.ForgotYourPassword}>Forgot your password?</Text>
+        <Image
+          style={styles.Ai_generated_logo}
+          source={{
+            uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/te66dl63erh-235%3A3008?alt=media&token=504b8724-e672-464e-b8bf-c0bf4272e6e2",
+          }}
+        />
+        <View style={styles.Group4}>
+          <Image
+            style={styles.Google178_svgrepoCom}
+            source={{
+              uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/te66dl63erh-368%3A2754?alt=media&token=aa7d16e5-2f5e-463d-b3ba-5b5cb20dd37f",
+            }}
+          />
+          <Text style={styles.ContinueWithGoogle}>Continue with Google</Text>
+        </View>
+      </View>
+    </View>
+  )
+}
+
+const styles = StyleSheet.create({
+  Start: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: 375,
+    height: 812,
+    paddingBottom: 19,
+    boxSizing: "border-box",
+    backgroundColor: "rgba(255,255,255,1)",
+  },
+  Group668: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    width: "100%",
+    height: "100%",
+    boxSizing: "border-box",
+  },
+  IosStatusBarBlack: {
+    width: "100%",
+    height: 44,
+  },
+  PageHeader: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "flex-start",
+    alignItems: "center",
+    width: "100%",
+    paddingLeft: 107,
+    paddingTop: 2,
+    paddingBottom: 2,
+    boxSizing: "border-box",
+  },
+  LogIn: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    color: "rgba(0,0,0,1)",
+    fontSize: "32px",
+    lineHeight: "32px",
+    fontFamily: "Urbanist, sans-serif",
+    fontWeight: "600",
+    textAlign: "center",
+  },
+  Login: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-end",
+    color: "rgba(254,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "500",
+    textAlign: "right",
+  },
+  InputText: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: "100%",
+    paddingLeft: 14,
+    paddingRight: 285,
+    paddingTop: 14,
+    paddingBottom: 16,
+    borderWidth: 1,
+    borderColor: "rgba(232,232,232,1)",
+    borderRadius: 8,
+    boxSizing: "border-box",
+    backgroundColor: "undefined",
+  },
+  Email: {
+    color: "rgba(189,189,189,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "500",
+  },
+  InputText1: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: "100%",
+    paddingLeft: 14,
+    paddingRight: 14,
+    paddingTop: 14,
+    paddingBottom: 16,
+    borderWidth: 1,
+    borderColor: "rgba(232,232,232,1)",
+    borderRadius: 8,
+    boxSizing: "border-box",
+    backgroundColor: "undefined",
+  },
+  Password: {
+    color: "rgba(189,189,189,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "500",
+  },
+  Show: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-end",
+    color: "rgba(254,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "500",
+    textAlign: "right",
+  },
+  ButtonPrimary: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "center",
+    width: "100%",
+    paddingLeft: 32,
+    paddingRight: 32,
+    paddingTop: 16,
+    paddingBottom: 16,
+    borderRadius: 100,
+    boxSizing: "border-box",
+    backgroundColor: "rgba(254,0,0,1)",
+  },
+  LogIn1: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    color: "rgba(255,255,255,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "600",
+    textAlign: "center",
+  },
+  ForgotYourPassword: {
+    color: "rgba(254,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "600",
+  },
+  Ai_generated_logo: {
+    width: 311,
+    height: 311,
+  },
+  Group4: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    width: "100%",
+    boxSizing: "border-box",
+  },
+  Google178_svgrepoCom: {
+    width: 60,
+    height: "100%",
+  },
+  ContinueWithGoogle: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "600",
+  },
+})
