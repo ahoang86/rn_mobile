@@ -1,0 +1,345 @@
+import React from "react"
+import { StyleSheet, Image, Text, View, ImageBackground } from "react-native"
+
+export default function Favorites_2() {
+  return (
+    <View style={styles.Favorites_2}>
+      <View style={styles.Group899}>
+        <Image
+          style={styles.IosStatusBarBlack}
+          source={{
+            uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/00x14cgdv2u2-363%3A2795?alt=media&token=47667581-b4f7-4c1e-94d7-a811f8efb4d9",
+          }}
+        />
+        <View style={styles.PageHeader}>
+          <Text style={styles.Back}>Back</Text>
+          <Text style={styles.Feed}>Favorites</Text>
+          <Text style={styles.Filter}>Log out</Text>
+        </View>
+        <View style={styles.Group3}>
+          <Image
+            style={styles.Folder_svgrepoCom}
+            source={{
+              uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/00x14cgdv2u2-363%3A2801?alt=media&token=e56dcbd0-32c2-4d99-996c-cc4c7c56d477",
+            }}
+          />
+          <Text style={styles.Folder}>Folder</Text>
+        </View>
+        <View style={styles.Group2}>
+          <View style={styles.Group182}>
+            <View style={styles.ContentBlock} />
+            <Image
+              style={styles.Plus_svgrepoCom}
+              source={{
+                uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/00x14cgdv2u2-363%3A2807?alt=media&token=2fe37d41-5986-4e1c-be35-dd9382654a9d",
+              }}
+            />
+            <View style={styles.ContentBlock} />
+          </View>
+          <View style={styles.Group234}>
+            <Text style={styles.Drink}>Drink</Text>
+            <Text style={styles.Dish}>Dish</Text>
+          </View>
+        </View>
+        <View style={styles.Group782}>
+          <View style={styles.ContentBlock} />
+          <Text style={styles.Drink1}>Drink</Text>
+          <View style={styles.Group452}>
+            <View style={styles.DividerLine} />
+            <View style={styles.Group022}>
+              <View style={styles.Group5}>
+                <View style={styles.Group6}>
+                  <Text style={styles.NewFolder}>New folder</Text>
+                </View>
+                <View style={styles.Group7}>
+                  <Text style={styles.NewPairing}>New pairing</Text>
+                </View>
+                <View style={styles.Group25}>
+                  <Text style={styles.AddDrinkDish}>Add drink/dish</Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <Image
+        style={styles.IosBottomBar5Tabs}
+        source={{
+          uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/00x14cgdv2u2-363%3A2813?alt=media&token=e5ef0d5a-673e-4eae-a372-7f23bf57ce5a",
+        }}
+      />
+      <Image
+        style={styles.Plus_svgrepoCom1}
+        source={{
+          uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/00x14cgdv2u2-363%3A2814?alt=media&token=ef1191c8-65d7-4ad8-8b29-a907f3648fc0",
+        }}
+      />
+      <Image
+        style={styles.Trash_svgrepoCom}
+        source={{
+          uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/00x14cgdv2u2-363%3A2816?alt=media&token=265bd3ca-2706-44f3-8d6c-e13c3d9ceab6",
+        }}
+      />
+    </View>
+  )
+}
+
+const styles = StyleSheet.create({
+  Favorites_2: {
+    position: "relative",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: 375,
+    height: 812,
+    boxSizing: "border-box",
+    backgroundColor: "rgba(255,255,255,1)",
+  },
+  Group899: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    width: "100%",
+    boxSizing: "border-box",
+  },
+  IosStatusBarBlack: {
+    width: "100%",
+    height: 44,
+  },
+  PageHeader: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "flex-start",
+    alignItems: "center",
+    width: "100%",
+    paddingTop: 3,
+    paddingBottom: 3,
+    boxSizing: "border-box",
+  },
+  Back: {
+    color: "rgba(254,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "500",
+  },
+  Feed: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    color: "rgba(0,0,0,1)",
+    fontSize: "30px",
+    lineHeight: "30px",
+    fontFamily: "Urbanist, sans-serif",
+    fontWeight: "600",
+    textAlign: "center",
+  },
+  Filter: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-end",
+    color: "rgba(254,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "500",
+    textAlign: "right",
+  },
+  Group3: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    width: "100%",
+    paddingLeft: 60,
+    paddingRight: 141,
+    paddingBottom: 20,
+    boxSizing: "border-box",
+  },
+  Folder_svgrepoCom: {
+    width: 60,
+    height: "100%",
+  },
+  Folder: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "20px",
+    lineHeight: "20px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "400",
+  },
+  Group2: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    width: "100%",
+    paddingLeft: 65,
+    paddingRight: 66,
+    paddingBottom: 20,
+    boxSizing: "border-box",
+  },
+  Group182: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    width: "100%",
+    boxSizing: "border-box",
+  },
+  ContentBlock: {
+    width: 50,
+    height: 50,
+    borderRadius: 8,
+    backgroundColor: "rgba(246,246,246,1)",
+  },
+  Plus_svgrepoCom: {
+    width: 60,
+    height: "100%",
+  },
+  ContentBlock1: {
+    width: 50,
+    height: 50,
+    borderRadius: 8,
+    backgroundColor: "rgba(246,246,246,1)",
+  },
+  Group234: {
+    display: "flex",
+    flexDirection: "row",
+    width: "100%",
+    boxSizing: "border-box",
+  },
+  Drink: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "14px",
+    lineHeight: "14px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "400",
+  },
+  Dish: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "14px",
+    lineHeight: "14px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "400",
+  },
+  Group782: {
+    display: "flex",
+    flexDirection: "column",
+    width: "100%",
+    boxSizing: "border-box",
+  },
+  ContentBlock2: {
+    width: 50,
+    height: 50,
+    borderRadius: 8,
+    backgroundColor: "rgba(246,246,246,1)",
+  },
+  Drink1: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "14px",
+    lineHeight: "14px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "400",
+  },
+  Group452: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "flex-end",
+    width: "100%",
+    boxSizing: "border-box",
+  },
+  DividerLine: {
+    width: "100%",
+    height: 1,
+    borderWidth: 1,
+    borderColor: "rgba(232,232,232,1)",
+  },
+  Group022: {
+    width: "100%",
+    height: 163,
+    paddingLeft: 19,
+    paddingRight: 18,
+    paddingTop: 12,
+    paddingBottom: 12,
+    borderColor: "rgba(0,0,0,1)",
+    borderRadius: 15,
+    boxSizing: "border-box",
+    backgroundColor: "rgba(255,255,255,1)",
+  },
+  Group5: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    width: "100%",
+    height: "100%",
+    boxSizing: "border-box",
+  },
+  Group6: {
+    width: "100%",
+    height: 48,
+    paddingLeft: 23,
+    paddingRight: 25,
+    paddingTop: 14,
+    paddingBottom: 14,
+    boxSizing: "border-box",
+    backgroundColor: "rgba(255,255,255,1)",
+  },
+  NewFolder: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "20px",
+    lineHeight: "20px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "400",
+  },
+  Group7: {
+    width: "100%",
+    height: 48,
+    paddingLeft: 19,
+    paddingRight: 20,
+    paddingTop: 12,
+    paddingBottom: 16,
+    boxSizing: "border-box",
+    backgroundColor: "rgba(255,255,255,1)",
+  },
+  NewPairing: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "20px",
+    lineHeight: "20px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "400",
+  },
+  Group25: {
+    width: "100%",
+    height: 43,
+    paddingLeft: 2,
+    paddingRight: 6,
+    paddingTop: 11,
+    paddingBottom: 12,
+    boxSizing: "border-box",
+  },
+  AddDrinkDish: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "20px",
+    lineHeight: "20px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "400",
+  },
+  IosBottomBar5Tabs: {
+    position: "absolute",
+    bottom: -0.5,
+    width: "100%",
+    height: 83.5,
+  },
+  Plus_svgrepoCom1: {
+    position: "absolute",
+    top: 741,
+    left: 227,
+    width: 60,
+    height: 60,
+  },
+  Trash_svgrepoCom: {
+    position: "absolute",
+    top: 741,
+    left: 92,
+    width: 60,
+    height: 60,
+  },
+})
