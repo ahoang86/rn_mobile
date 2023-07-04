@@ -1,0 +1,100 @@
+import React from "react"
+import { StyleSheet, Image, Text, View, ImageBackground } from "react-native"
+
+export default function Menu() {
+  return (
+    <View style={styles.Menu}>
+      <Image
+        style={styles.BurgerMenu_svgrepoCom}
+        source={{
+          uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/22stg8xsvvx-226%3A2772?alt=media&token=256a87c8-24b6-4c25-9eb1-1719f257f5c4",
+        }}
+      />
+      <View style={styles.Group5105}>
+        <Image
+          style={styles.IosStatusBarBlack}
+          source={{
+            uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/22stg8xsvvx-226%3A2764?alt=media&token=1c2cb6a6-82af-47d4-9de9-b5e25a60e565",
+          }}
+        />
+        <Image
+          style={styles.PageHeader}
+          source={{
+            uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/22stg8xsvvx-226%3A2765?alt=media&token=8cdbcf8e-21d4-4120-a82c-2c5fd5ec29b5",
+          }}
+        />
+        <Text style={styles.Home}>Home</Text>
+        <Text style={styles.Favorites}>Favorites</Text>
+        <Text style={styles.RateAndReview}>Rate and Review</Text>
+        <Text style={styles.LogOut}>Log out</Text>
+      </View>
+    </View>
+  )
+}
+
+const styles = StyleSheet.create({
+  Menu: {
+    position: "relative",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: 375,
+    height: 812,
+    paddingBottom: 554,
+    boxSizing: "border-box",
+    backgroundColor: "rgba(255,255,255,1)",
+  },
+  BurgerMenu_svgrepoCom: {
+    position: "absolute",
+    top: 60,
+    left: 321,
+    width: 38,
+    height: 38,
+  },
+  Group5105: {
+    position: "absolute",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    width: "100%",
+    height: "100%",
+    boxSizing: "border-box",
+  },
+  IosStatusBarBlack: {
+    width: "100%",
+    height: 44,
+  },
+  PageHeader: {
+    width: 343,
+    height: 36,
+  },
+  Home: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "600",
+  },
+  Favorites: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "600",
+  },
+  RateAndReview: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "600",
+  },
+  LogOut: {
+    color: "rgba(254,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "600",
+  },
+})
