@@ -1,0 +1,382 @@
+import React from "react"
+import { StyleSheet, Image, Text, View, ImageBackground } from "react-native"
+
+export default function Results_2() {
+  return (
+    <View style={styles.Results_2}>
+      <View style={styles.Group385}>
+        <Image
+          style={styles.IosStatusBarBlack}
+          source={{
+            uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/ebqti95cnc7-325%3A2446?alt=media&token=39d55fd8-0b2f-488b-b1f5-e4904ef99de6",
+          }}
+        />
+        <View style={styles.PageHeader}>
+          <Text style={styles.Back}>Back</Text>
+          <Text style={styles.Feed}>Drinks</Text>
+        </View>
+        <View style={styles.InputSearch}>
+          <Text style={styles.Search}>Search by name or ingredients</Text>
+        </View>
+        <View style={styles.ContentBlocks}>
+          <View style={styles.ContentContentBlockSmall}>
+            <View style={styles.Group952}>
+              <View style={styles.ContentBlock} />
+              <View style={styles.Group931}>
+                <Text style={styles.Header}>Drink</Text>
+                <Text style={styles.HeLlWantToUseYourYac}>Information</Text>
+              </View>
+            </View>
+            <View style={styles.DividerLine} />
+          </View>
+          <View style={styles.ContentContentBlockSmall1}>
+            <View style={styles.Group884}>
+              <View style={styles.ContentBlock} />
+              <View style={styles.Group1110}>
+                <Text style={styles.Header2}>Drink</Text>
+                <Text style={styles.HeLlWantToUseYourYac1}>Information</Text>
+              </View>
+            </View>
+            <View style={styles.DividerLine} />
+          </View>
+          <View style={styles.ContentContentBlockSmall2}>
+            <View style={styles.Group729}>
+              <View style={styles.ContentBlock} />
+              <View style={styles.Group625}>
+                <Text style={styles.Header3}>Drink</Text>
+                <Text style={styles.HeLlWantToUseYourYac2}>Information</Text>
+              </View>
+            </View>
+            <View style={styles.DividerLine} />
+          </View>
+          <View style={styles.ContentContentBlockSmall3}>
+            <View style={styles.Group957}>
+              <View style={styles.ContentBlock} />
+              <View style={styles.Group444}>
+                <Text style={styles.Header4}>Drink</Text>
+                <Text style={styles.HeLlWantToUseYourYac3}>Information</Text>
+              </View>
+            </View>
+            <View style={styles.DividerLine} />
+          </View>
+        </View>
+      </View>
+      <Image
+        style={styles.BurgerMenu_svgrepoCom}
+        source={{
+          uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/ebqti95cnc7-325%3A2456?alt=media&token=affa8c57-cc61-42d8-a1f8-5b00a22e269d",
+        }}
+      />
+      <Image
+        style={styles.IconX}
+        source={{
+          uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/ebqti95cnc7-374%3A2854?alt=media&token=bb8ddbd4-4ef2-4367-a3de-76ca793ba2a0",
+        }}
+      />
+    </View>
+  )
+}
+
+const styles = StyleSheet.create({
+  Results_2: {
+    position: "relative",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: 375,
+    height: 812,
+    paddingBottom: 262,
+    boxSizing: "border-box",
+    backgroundColor: "rgba(255,255,255,1)",
+  },
+  Group385: {
+    position: "absolute",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    width: "100%",
+    height: "100%",
+    boxSizing: "border-box",
+  },
+  IosStatusBarBlack: {
+    width: "100%",
+    height: 44,
+  },
+  PageHeader: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "flex-start",
+    alignItems: "center",
+    width: "100%",
+    paddingRight: 129,
+    paddingTop: 3,
+    paddingBottom: 3,
+    boxSizing: "border-box",
+  },
+  Back: {
+    color: "rgba(254,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "500",
+  },
+  Feed: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    color: "rgba(0,0,0,1)",
+    fontSize: "30px",
+    lineHeight: "30px",
+    fontFamily: "Urbanist, sans-serif",
+    fontWeight: "600",
+    textAlign: "center",
+  },
+  InputSearch: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: "100%",
+    paddingLeft: 14,
+    paddingRight: 92,
+    paddingTop: 14,
+    paddingBottom: 16,
+    borderWidth: 1,
+    borderColor: "rgba(232,232,232,1)",
+    borderRadius: 100,
+    boxSizing: "border-box",
+    backgroundColor: "undefined",
+  },
+  Search: {
+    color: "rgba(189,189,189,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "500",
+  },
+  ContentBlocks: {
+    display: "flex",
+    flexDirection: "column",
+    width: "100%",
+    boxSizing: "border-box",
+  },
+  ContentContentBlockSmall: {
+    position: "relative",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: "100%",
+    boxSizing: "border-box",
+  },
+  Group952: {
+    position: "absolute",
+    display: "flex",
+    flexDirection: "row",
+    width: 140.89,
+    height: 50,
+    boxSizing: "border-box",
+  },
+  ContentBlock: {
+    width: 50,
+    height: "100%",
+    borderRadius: 8,
+    backgroundColor: "rgba(246,246,246,1)",
+  },
+  Group931: {
+    display: "flex",
+    flexDirection: "column",
+    height: "100%",
+    boxSizing: "border-box",
+  },
+  Header: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "600",
+  },
+  HeLlWantToUseYourYac: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "14px",
+    lineHeight: "14px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "400",
+  },
+  DividerLine: {
+    position: "absolute",
+    left: 66,
+    width: 277,
+    height: 1,
+    borderWidth: 1,
+    borderColor: "rgba(232,232,232,1)",
+  },
+  ContentContentBlockSmall1: {
+    position: "relative",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: "100%",
+    boxSizing: "border-box",
+  },
+  Group884: {
+    position: "absolute",
+    display: "flex",
+    flexDirection: "row",
+    width: 140.89,
+    height: 50,
+    boxSizing: "border-box",
+  },
+  ContentBlock2: {
+    width: 50,
+    height: "100%",
+    borderRadius: 8,
+    backgroundColor: "rgba(246,246,246,1)",
+  },
+  Group1110: {
+    display: "flex",
+    flexDirection: "column",
+    height: "100%",
+    boxSizing: "border-box",
+  },
+  Header2: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "600",
+  },
+  HeLlWantToUseYourYac1: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "14px",
+    lineHeight: "14px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "400",
+  },
+  DividerLine1: {
+    position: "absolute",
+    left: 66,
+    width: 277,
+    height: 1,
+    borderWidth: 1,
+    borderColor: "rgba(232,232,232,1)",
+  },
+  ContentContentBlockSmall2: {
+    position: "relative",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: "100%",
+    boxSizing: "border-box",
+  },
+  Group729: {
+    position: "absolute",
+    display: "flex",
+    flexDirection: "row",
+    width: 140.89,
+    height: 50,
+    boxSizing: "border-box",
+  },
+  ContentBlock4: {
+    width: 50,
+    height: "100%",
+    borderRadius: 8,
+    backgroundColor: "rgba(246,246,246,1)",
+  },
+  Group625: {
+    display: "flex",
+    flexDirection: "column",
+    height: "100%",
+    boxSizing: "border-box",
+  },
+  Header3: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "600",
+  },
+  HeLlWantToUseYourYac2: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "14px",
+    lineHeight: "14px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "400",
+  },
+  DividerLine2: {
+    position: "absolute",
+    left: 66,
+    width: 277,
+    height: 1,
+    borderWidth: 1,
+    borderColor: "rgba(232,232,232,1)",
+  },
+  ContentContentBlockSmall3: {
+    position: "relative",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    width: "100%",
+    boxSizing: "border-box",
+  },
+  Group957: {
+    position: "absolute",
+    display: "flex",
+    flexDirection: "row",
+    width: 140.89,
+    height: 50,
+    boxSizing: "border-box",
+  },
+  ContentBlock6: {
+    width: 50,
+    height: "100%",
+    borderRadius: 8,
+    backgroundColor: "rgba(246,246,246,1)",
+  },
+  Group444: {
+    display: "flex",
+    flexDirection: "column",
+    height: "100%",
+    boxSizing: "border-box",
+  },
+  Header4: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "16px",
+    lineHeight: "16px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "600",
+  },
+  HeLlWantToUseYourYac3: {
+    color: "rgba(0,0,0,1)",
+    fontSize: "14px",
+    lineHeight: "14px",
+    fontFamily: "Inter, sans-serif",
+    fontWeight: "400",
+  },
+  DividerLine3: {
+    position: "absolute",
+    left: 66,
+    width: 277,
+    height: 1,
+    borderWidth: 1,
+    borderColor: "rgba(232,232,232,1)",
+  },
+  BurgerMenu_svgrepoCom: {
+    position: "absolute",
+    top: 60,
+    left: 321,
+    width: 38,
+    height: 38,
+  },
+  IconX: {
+    position: "absolute",
+    top: 142,
+    left: 321,
+    width: 16,
+    height: 16,
+  },
+})
